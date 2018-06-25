@@ -11,7 +11,7 @@ if (typeof web3 !== 'undefined') {
   web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545")); // Parity default
 }
 
-// Read contract abi, and connect to its address this allows us to use the Web3 API to call
+// Read contract ABI, and connect to its address this allows us to use the Web3 API to call
 // functions within a smart contract
 var fs = require('fs')
 var abiArray = JSON.parse(fs.readFileSync('abi.json', 'utf-8'));
