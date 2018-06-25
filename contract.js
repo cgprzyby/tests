@@ -1,5 +1,5 @@
 /*
-   Testing the response times of function calls within smart contracts on the Ethereum blockchain.
+*  Testing the response times of function calls within smart contracts on the Ethereum blockchain.
 */
 var Web3 = require('web3');
 var now = require("performance-now");
